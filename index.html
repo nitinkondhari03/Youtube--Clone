@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div id="line0"><hr></div>
+    <div id="navbar">
+</div>
+<div id="line"><hr></div>
+<div>
+   
+    <div  id="sty" onclick="myFunction()">
+          <img src="https://fontawesomeicons.com/images/svg/options-outline.svg" alt="">
+          <h3>FILTERS</h3>
+         
+    </div>
+    
+    <div id="myDIV">
+        <div id="shotr">
+       <div>
+       <h3>TYPE</h3>
+       <hr>
+       <h4 onclick="videos()">video</h4>
+       <h4 onclick="channel()">channel</h4>
+       <h4 onclick="playlist()">playlist</h4>
+       <h4 onclick="movie()">movie</h4>
+
+       </div>
+       <div>
+        <h3>Duration</h3>
+        <hr>
+        <h4 onclick="short()">Under 4 minutes</h4>
+        <h4 onclick="medium()">4-20 minutes</h4>
+        <h4 onclick="long()">Over 20 minutes</h4>
+       </div>
+       <div>
+        <h3>SORT BY</h3>
+        <hr>
+        <h4 onclick="dates()">Date</h4>
+        <h4 onclick="rating()">Rating</h4>
+        <h4 onclick="relevance()">Relevance</h4>
+        <h4 onclick="viewCount()">ViewCount</h4>
+        <h4 onclick="videoCount()">VideoCount</h4>
+        <h4 onclick="titles()">Title</h4>
+       </div>
+    </div>
+    </div>
+   
+</div>
+
+  
+    <div id="container">
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
+<script type="module">
+   import {navbar} from "./components/navbar.js";
+   let navbar_div=document.getElementById('navbar')
+
+navbar_div.innerHTML=navbar()
+</script>

@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(245, 250, 255); 
+}
+  #myDIV{
+    display:none;
+   
+}
+#symbol>img{
+  width: 150px;
+  height: 70px;
+}
+#navbar{
+    display: flex;
+    margin-top: -9px;
+    background-color: white;
+   
+}
+#searching{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    display: flex;
+}
+#searching>input{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right:80%;
+       
+}
+#searching>button{
+    padding: 10px;
+}
+#searching>button>img{
+    width: 100%;
+   
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content:space-around;
+    margin-top: 30px;
+    column-gap: 5%;
+    row-gap: 1%;
+    
+}
+#container>div>img{
+    width: 90%;
+    height: 60%;
+    cursor: pointer;
+}
+#container>div>h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#container>div>h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#line{
+   margin-top: -10px;
+}
+#query{
+    font-size: 16px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+#shotr{
+    display: flex;
+    column-gap: 20%;
+}
+#sty{
+    display: flex;
+     width: 150px;
+     
+    cursor: pointer;
+}
+#sty>img{
+   width: 30px;
+}
+#sty>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#shotr>div>h4{
+    cursor: pointer;
+}
+#shotr>div:nth-child(1){
+    margin-left: 100px;
+}
+#signlogo{
+    margin-left: 600px;
+    display: flex;
+    border: 1px solid rgb(16, 48, 231);
+    width: 150px;
+    height: 55px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+#signlogo>img{
+    width: 60px;
+    height: 55px;
+}
+#guv{
+    font-size: 16px;
+    margin: auto;
+    color: rgb(8, 33, 255);
+}
+body{
+    background-color: rgb(245, 250, 255); 
+}
+#symbol>img{
+  width: 150px;
+  height: 70px;
+}
+#navbar{
+    display: flex;
+    margin-top: -9px;
+   background-color: rgb(255, 255, 255);
+}
+#searching{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+    display: flex;
+}
+#searching>input{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right:80%;
+       
+}
+#searching>button{
+    padding: 10px;
+}
+
+#main{
+    display: flex;
+    height: 600px;
+}
+#video_details{
+    flex: 3;
+}
+#recommendation{
+    flex: 1;
+}
+#recommendation{
+    width: 100%;
+ 
+    
+}
+#recommendation>div{
+  display: flex;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#recommendation>div>img{
+    width: 50%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+#recommendation>div>h4{
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#recommendation>div>h5{
+    font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(75, 73, 73);
+}
+ h2{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+ }
+ h2:nth-child(2){
+   
+    color: rgb(67, 39, 39);
+ }
+ h2:nth-child(3){
+    color: rgb(122, 122, 122);
+   
+ }
+ h2:nth-child(4){
+    color: rgb(0, 0, 0);
+ }

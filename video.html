@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body onload="playvideo()">
+    <div id="line0"><hr></div>
+    <div id="navbar">
+</div>
+<div id="line"><hr></div>
+    <div id="main">
+      
+    <div id="video_details">
+        
+      
+        </div>
+    <div id="recommendation">
+
+    </div>
+</div>
+</body>
+</html>
+<script src="./video.js"></script>
+<script type="module">
+       import {navbar} from "./components/navbar.js";
+   let navbar_div=document.getElementById('navbar')
+
+navbar_div.innerHTML=navbar()
+</script>

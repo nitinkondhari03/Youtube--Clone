@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(49, 48, 48);
+        }
+        form{
+          border: 1px solid red;  
+         display: grid;
+         grid-template-columns: auto;  
+         width: 400px; 
+         gap: 20px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px 40px 40px 40px;
+        background-color: #93c7c7;
+        }
+        form>h2{
+            text-align: center;
+           
+        }
+        input{
+            height: 20px;
+            font-size: 15px;
+        }
+        #mar>button:nth-child(1){
+            margin-left: 600px;
+            margin-right: 40px;
+        }
+      
+        #mar>button{
+          font-size: 17px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="mar">
+        <button onclick="replace()">HOME</button>
+        <button  onclick="repl()">signIn</button>
+       </div>
+    <form id="singup" onsubmit="signup(event)">
+        <h2 id="new">Signup</h2>
+        <input id="email" type="email" placeholder="Email address">
+        <input id="name" type="text" placeholder="Enter Name">
+        <input id="mobile" type="number" placeholder="Enetr mobile Number">
+        <input id="password" type="password" placeholder="Password">
+        <button>SingUP</button>
+    </form>
+</body>
+</html>
+<script src="./signup.js"></script>

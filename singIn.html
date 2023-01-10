@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(49, 48, 48);
+        }
+        form{
+          border: 1px solid red;  
+         display: grid;
+         grid-template-columns: auto;  
+         width: 400px; 
+         gap: 20px;
+        margin: auto;
+        padding: 20px 40px 40px 40px;
+        background-color: #93c7c7;
+        margin-top: 50px;
+      
+        
+    
+        }
+        form>h2{
+            text-align: center;
+            color: white;
+           
+        }
+        input{
+            height: 20px;
+            font-size: 15px;
+        }
+        #imgg{
+            position: relative;
+        }
+        #imgg>img{
+            width: 20px;
+            margin-left: 1000px;
+            margin-top: 60px;
+            border: 1px solid red;
+        }
+        #mar>button:nth-child(1){
+            margin-left: 600px;
+        }
+       
+        #mar>button{
+          font-size: 17px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-weight: bold;
+        }
+        #new{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+   <div id="mar">
+    <button onclick="replace()">HOME</button>
+    <button onclick="repl()">signUP</button>
+   </div>
+  
+  
+    <form id="form" onsubmit="singin(event)">
+        <h2 id="new">SingIn</h2>
+        <input id="email" type="email" placeholder="Enter Email">
+        <input id="passwaod" type="password" placeholder="Enter password">
+        <button id="signn">singIn</button>
+    </form>
+</body>
+</html>
+<script src="./singIn.js"></script>
