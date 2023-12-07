@@ -7,8 +7,6 @@ This is a YouTube app. In this app, you can Search and see the search results an
 ## Deployment
 https://www.netlify.com/
 
-```
-
 ## Features
 
  - search video
