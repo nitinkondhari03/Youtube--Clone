@@ -11,7 +11,7 @@ https://www.netlify.com/
 
  - search video
  
- - Filter
+ - Filters
  
  - Play Video
  
@@ -23,7 +23,7 @@ https://www.netlify.com/
 ### YouTube Page
 ![HomeYoutube](https://github.com/nitinkondhari03/Youtube--Clone/assets/107460712/c1e6b952-da5e-47f2-9516-c150d53ad852)
 
-### YouTube Filter Page
+### YouTube Filters Page
 ![Filters Youtube](https://github.com/nitinkondhari03/Youtube--Clone/assets/107460712/93c98216-3d68-48e8-b330-c72929a6c8c1)
 
 ### Play Video Page
